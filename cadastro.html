@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <title>Cadastre-se</title>
+</head>
+<body>
+
+
+
+    <style> 
+
+        .corTexto 
+        {
+            color: rgb(5, 5, 5);
+            text-shadow: 0 0 0.2em #8F7;
+            font-family: cursive;
+            
+        }
+
+        .corNav 
+        {
+            background: rgb(197, 73, 27);
+        }
+
+        .container1
+        {
+            padding-top: 7ex;
+            padding-left: 2ex;
+            padding-right: 2ex;
+        }
+
+        .container2
+        {
+            padding-left: 2ex;
+            padding-right: 2ex;  
+            padding-top: 1ex; 
+        }
+        
+        .texto-center 
+        {
+        text-align: center !important;
+        padding-top: 2ex;
+        }
+
+    
+    </style>
+        
+
+    <nav class="navbar navbar-expand-lg navbar-light corNav">
+        <a class="corTexto" href="index.html">SGM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto ">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="Apresentação.html">Apresentação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quemSomos.html">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastra-se</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <form class="form-inline my-2 my-lg-0 text-right">
+            <a class=" my-2 my-sm-0" type="text">Leandro</a>
+        </form>
+    </nav>
+
+    <div>
+        <h3 class="texto-center">Cadastro</h3>
+    </div>
+
+    <form>
+        <div class="container1 form-row">
+          <div class="col">
+              <h6>Nome</h6>
+            <input type="text" class="form-control" placeholder="Nome">
+          </div>
+          <div class="col">
+              <h6>Sobrenome</h6>
+            <input type="text" class="form-control" placeholder="Sobrenome">
+          </div>
+        </div>
+
+        <div class="container2 form-row">
+            <div class="col">
+                <h6>E-mail</h6>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+                <h6>Confirme seu E-mail</h6>
+              <input type="text" class="form-control" placeholder="Confirme seu Email">
+            </div>
+        </div>
+
+        <div class="container2 form-row">
+            <div class="col">
+                <h6>Senha</h6>
+              <input type="text" class="form-control" placeholder="Senha">
+            </div>
+            <div class="col">
+                <h6>Confirme sua Senha</h6>
+              <input type="text" class="form-control" placeholder="Confirme sua Senha">
+            </div>
+        </div>
+
+        <div class="container2 form-row">
+            <div class="col">
+                <h6>RG</h6>
+              <input type="number" class="form-control" placeholder="RG">
+            </div>
+            <div class="col">
+                <h6>CPF</h6>
+              <input type="number" class="form-control" placeholder="CPF">
+            </div>
+        </div>
+
+        <div class="container2 form-row">
+            <div class="col-4">
+                <h6>Endereço</h6>
+              <input type="text" class="form-control" placeholder="Digite seu endereço">
+            </div>
+            <div class="col-2">
+                <h6>Nº</h6>
+              <input type="number" class="form-control" placeholder="nº da residencia">
+            </div>
+            <div class="col-3">
+                <h6>Bairro</h6>
+                <input type="text" class="form-control" placeholder="Bairro">
+            </div>
+            <div class="col-3">
+                <h6>Cidade</h6>
+                <input type="text" class="form-control" placeholder="Cidade">
+            </div>
+            <div class="col">
+                <h6>CEP</h6>
+                <input type="text" class="form-control" placeholder="Cidade">
+            </div>
+            <div class="col">
+                <h6>Estado</h6>
+                <input type="text" class="form-control" placeholder="Cidade">
+            </div>
+        </div>
+
+        <div class="container2 form-row">
+            <div class="col-3">
+                <h6>DDD</h6>
+                <input type="number" class="form-control" placeholder="DDD">
+            </div>
+            <div class="col-9">
+                <h6>Telefone</h6>
+                <input type="number" class="form-control" placeholder="Nº do Telefone">
+            </div>
+        </div>
+
+        <div class="container2 form-row">
+            <h6>Sexo</h6>
+        </div> 
+        
+        <div class="container2 form-row">
+            
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Feminino
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                   Masculino
+                </label>
+            </div> 
+        </div>
+            
+        <div>
+            <button class="btn btn-primary" type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        
+    
+</body>
+</html>
